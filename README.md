@@ -7,6 +7,7 @@
 3.	Write a program in the vi editor and save it with .l extension.
 4.	Compile the lex program with lex compiler to produce output file as lex.yy.c. eg $ lex filename.l $ cc lex.yy.c
 5.	Compile that file with C compiler and verify the output.
+~~~
 ## Program 
 /* program name is lexp.l */
 %{
@@ -73,3 +74,4 @@ int a,b;
 
 # RESULT
 ## The lexical analyzer is implemented using lex and the output is verified.
+~~~
