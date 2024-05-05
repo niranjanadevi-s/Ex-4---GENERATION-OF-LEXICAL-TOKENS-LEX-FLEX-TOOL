@@ -8,7 +8,6 @@
 4.	Compile the lex program with lex compiler to produce output file as lex.yy.c. eg $ lex filename.l $ cc lex.yy.c
 5.	Compile that file with C compiler and verify the output.
 ## Program 
-~~~
 /* program name is lexp.l */
 %{
 /* program to recognize a c program */
@@ -62,16 +61,13 @@ yyin = file;
 {
 return 0;
 }
-~~~
 # INPUT
-~~~
 $vi var.c
 #include<stdio.h>
 main()
 {
 int a,b;
 }
-~~~
 # OUTPUT
 ![image](https://github.com/niranjanadevi-s/Ex-4---GENERATION-OF-LEXICAL-TOKENS-LEX-FLEX-TOOL/assets/141748873/f512e016-d731-426a-b10a-49cbb1fad6a3)
 
